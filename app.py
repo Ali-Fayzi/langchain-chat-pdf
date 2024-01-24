@@ -7,3 +7,6 @@ from langchain_community.callbacks import get_openai_callback
 from langchain_community.embeddings.openai import OpenAIEmbeddings
 from langchain.chains.question_answering import load_qa_chain
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+
+
+os.environ['OPENAI_API_KEY'] = ''
